@@ -1,14 +1,18 @@
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   border: 2px solid black;
+  padding: 5px;
+  background-color: plum;
+  height: 250px;
+  width: 250px;
 }
 .game{
   display: flex;
@@ -16,7 +20,7 @@
 }
 header {
   display: grid;
-  grid-template-columns: 0.75fr 1.25fr;
+  grid-template-columns: 1.25fr 0.5fr;
   grid-template-rows: 0.1fr 1fr;
 }
 

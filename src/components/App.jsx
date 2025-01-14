@@ -77,10 +77,12 @@ function App() {
           Get points by clicking on an image but dont click on any more than once!
         </div>
       </header>
-      <div className = "cards">
-        {allCards.map((card) => (
-          <GameCard className = "card" key = {card.name} card = {card} onClick = {() => handleCardClick(card)}/>
-        ))}
+      <div className="bottom">
+        <div className = "cards">
+          {allCards.map((card) => (
+            <GameCard className = "card" key = {card.name} card = {card} onClick = {() => handleCardClick(card)}/>
+          ))}
+        </div>
       </div>
     </div>
   )
